@@ -16,6 +16,6 @@
   <h2><%= name %>님(소속: <%= crew %>)이 정상 등록되었습니다~</h2>
   
   <a href="/chap04/dancer/form">새로운 댄서 등록하러 가기</a> <br>
-  <a href="#">댄서 목록 조회하기</a> <br>
+  <a href="/chap04/show-list">댄서 목록 조회하기</a> <br>
 </body>
 </html>

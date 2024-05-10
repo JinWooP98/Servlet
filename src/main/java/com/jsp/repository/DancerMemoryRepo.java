@@ -29,4 +29,8 @@ public class DancerMemoryRepo {
         System.out.println(dancerList);
         return true;
     }
+
+    public List<Dancer> retrieve() {
+        return dancerList;
+    }
 }
