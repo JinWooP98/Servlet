@@ -27,7 +27,12 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-
+    <!--database 관련 라이브러리-->
+        <dependency>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>3.3.3</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
