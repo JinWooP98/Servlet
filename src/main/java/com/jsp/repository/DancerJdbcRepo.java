@@ -12,7 +12,7 @@ import java.util.List;
 
 // 역할 : 실제 데이터베이스에 댄서들을 CRUD
 // Model
-public class DancerJdbcRepo {
+public class DancerJdbcRepo implements DancerRepository{
 
     // 필요한 데이터
     private String username = "root"; // db계정명
