@@ -44,6 +44,7 @@ public class Dancer {
             return genreDescription;
         }
     }
+    private int id;
 
     private String name; // 댄서 이름
 
@@ -117,5 +118,13 @@ public class Dancer {
                 ", danceLevel=" + danceLevel +
                 ", genres=" + genres +
                 '}';
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
